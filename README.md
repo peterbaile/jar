@@ -23,7 +23,7 @@ If you find our code, or the paper helpful, please cite the paper
 
 To execute the MIP program, we recommend using [the Gurobi solver](https://docs.python-mip.com/en/latest/install.html#gurobi-installation-and-configuration-optional) for significantly faster execution.
 
-Table-table compatibility scores generated from `compatibility.py` for Spider and Bird have been pre-computed and saved under `data/`.
+Table-table compatibility scores generated from `compatibility.py` and query decomposition generated from `decomp.py` for Spider and Bird have been pre-computed and saved under `data/`.
 
 The `dev_database` for Bird and Spider as well as the fine-tuned `TAPAS-large` checkpoints can be found in this [Google drive folder](https://drive.google.com/drive/folders/1PtLan7Guu98J42lqCxhZZc-EyZpvwWVk?usp=sharing).
 
