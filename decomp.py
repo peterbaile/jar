@@ -72,7 +72,7 @@ def populate_decomp(dataset):
     write_json(outputs, f'./data/{dataset}/decomp.json')
 
 def parse(dataset):
-  resp = read_json(f'./data/{dataset}/decomp_resp.json')
+  resp = read_json(f'./data/{dataset}/decomp.json')
   resp = [get_resp(r) for r in resp]
   write_json(resp, f'./data/{dataset}/decomp.json')
 
